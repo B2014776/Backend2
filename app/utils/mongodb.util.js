@@ -6,6 +6,7 @@ class MongoDB {
 		this.client = await MongoClient.connect(uri);
 		return this.client;
 	};
-}
+} 
+
 
 module.exports = MongoDB;

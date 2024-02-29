@@ -15,6 +15,7 @@ async function startServer() {
 		console.log("Cannot connect to the database!", error);
 		process.exit();
 	}
+    
 }
 
 startServer();
